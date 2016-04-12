@@ -398,24 +398,31 @@ th {
 }
 
 @font-face {
-  font-family: "LatoRegular";
+  font-family: "OpenSansRegular";
   font-style: normal;
   font-weight: normal;
-  src: url("../fonts/Lato/LatoRegular.woff2") format("woff2"), url("../fonts/Lato/LatoRegular.woff") format("woff"), url("../fonts/Lato/LatoRegular.ttf") format("truetype"), url("../fonts/Lato/LatoRegular.svg#LatoRegular") format("svg");
+  src: url("../fonts/OpenSansRegular/OpenSansRegular.woff") format("woff"), url("../fonts/OpenSansRegular/OpenSansRegular.ttf") format("truetype"), url("../fonts/OpenSansRegular/OpenSansRegular.svg#OpenSansRegular") format("svg");
 }
 
 @font-face {
-  font-family: "LatoLight";
+  font-family: "OpenSansLight";
   font-style: normal;
   font-weight: normal;
-  src: url("../fonts/Lato/LatoLight.woff2") format("woff2"), url("../fonts/Lato/LatoLight.woff") format("woff"), url("../fonts/Lato/LatoLight.ttf") format("truetype"), url("../fonts/Lato/LatoLight.svg#LatoLight") format("svg");
+  src: url("../fonts/OpenSansLight/OpenSansLight.woff") format("woff"), url("../fonts/OpenSansLight/OpenSansLight.ttf") format("truetype"), url("../fonts/OpenSansLight/OpenSansLight.svg#OpenSansLight") format("svg");
 }
 
 @font-face {
-  font-family: "LatoItalic";
+  font-family: "OpenSansItalic";
   font-style: normal;
   font-weight: normal;
-  src: url("../fonts/Lato/LatoItalic.woff2") format("woff2"), url("../fonts/Lato/LatoItalic.woff") format("woff"), url("../fonts/Lato/LatoItalic.ttf") format("truetype"), url("../fonts/Lato/LatoItalic.svg#LatoItalic") format("svg");
+  src: url("../fonts/OpenSansBold/OpenSansBold.woff") format("woff"), url("../fonts/OpenSansBold/OpenSansBold.ttf") format("truetype"), url("../fonts/OpenSansBold/OpenSansBold.svg#OpenSansItalic") format("svg");
+}
+
+@font-face {
+  font-family: "OpenSansItalic";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/OpenSansSemiBold/OpenSansSemiBold.woff") format("woff"), url("../fonts/OpenSansSemiBold/OpenSansSemiBold.ttf") format("truetype"), url("../fonts/OpenSansSemiBold/OpenSansSemiBold.svg#OpenSansItalic") format("svg");
 }
 
 @font-face {
