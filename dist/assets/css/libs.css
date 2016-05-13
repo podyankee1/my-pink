@@ -412,17 +412,17 @@ th {
 }
 
 @font-face {
-  font-family: "OpenSansItalic";
+  font-family: "OpenSansBold";
   font-style: normal;
   font-weight: normal;
-  src: url("../fonts/OpenSansBold/OpenSansBold.woff") format("woff"), url("../fonts/OpenSansBold/OpenSansBold.ttf") format("truetype"), url("../fonts/OpenSansBold/OpenSansBold.svg#OpenSansItalic") format("svg");
+  src: url("../fonts/OpenSansBold/OpenSansBold.woff") format("woff"), url("../fonts/OpenSansBold/OpenSansBold.ttf") format("truetype"), url("../fonts/OpenSansBold/OpenSansBold.svg#OpenSansBold") format("svg");
 }
 
 @font-face {
-  font-family: "OpenSansItalic";
+  font-family: "OpenSansSemiBold";
   font-style: normal;
   font-weight: normal;
-  src: url("../fonts/OpenSansSemiBold/OpenSansSemiBold.woff") format("woff"), url("../fonts/OpenSansSemiBold/OpenSansSemiBold.ttf") format("truetype"), url("../fonts/OpenSansSemiBold/OpenSansSemiBold.svg#OpenSansItalic") format("svg");
+  src: url("../fonts/OpenSansSemiBold/OpenSansSemiBold.woff") format("woff"), url("../fonts/OpenSansSemiBold/OpenSansSemiBold.ttf") format("truetype"), url("../fonts/OpenSansSemiBold/OpenSansSemiBold.svg#OpenSansSemiBold") format("svg");
 }
 
 @font-face {
