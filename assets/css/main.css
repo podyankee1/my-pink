@@ -27,6 +27,10 @@ section {
   padding: 10% 10% 0 10%;
 }
 
+.on {
+  background: #283645;
+}
+
 header {
   background: #2b3a4a url(../img/background-1@1x.jpg) center center no-repeat;
   background-size: cover;
@@ -103,6 +107,12 @@ header h1 {
   display: table;
 }
 
+.main-nav-toggle .toggle-mnu::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
 .download-ul {
   margin: 0;
   padding: 0;
@@ -166,7 +176,7 @@ button {
           border-radius: 25px;
 }
 
-i.fa-navicon {
+i.fa {
   font-size: 28px;
 }
 
@@ -181,45 +191,67 @@ i.fa-navicon {
 
 .section-features .header {
   background: #fff;
+  position: relative;
+  padding-bottom: 50px;
 }
 
-.section-features .features {
-  background: pink;
+.features {
+  background: #f2f2f2;
 }
 
-.section-features h2 {
+.features h2 {
   color: #283645;
   font-family: OpenSansLight, sans-serif;
   font-size: 1.5em;
   font-weight: 300;
 }
 
-.section-features h2:nth-of-type(2) {
-  margin-bottom: 40px;
+.features h2:nth-of-type(2) {
+  margin-bottom: 0;
 }
 
-.section-features h3 {
+.features h3 {
   font-family: OpenSansBold, sans-serif;
   color: #000;
   font-size: 1.125em;
   font-weight: 700;
+  margin-top: 0;
+  padding-top: 50px;
 }
 
-.section-features p {
+.features p {
   color: #283645;
   font-size: 0.875em;
 }
 
-.section-features .iphone-screen {
+.features .iphone-screen {
   text-align: center;
 }
 
-.section-features .feature {
+.features .feature {
   margin-bottom: 40px;
 }
 
 .iphone-screen {
   line-height: 0;
+}
+
+.grey-triangle {
+  height: 0;
+  padding: 8% 0 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url("../img/gray_triangle.svg") no-repeat;
+  z-index: 2;
+  width: 100%;
+  background-position: bottom;
+  background-size: cover;
+}
+
+.section-slider {
+  position: relative;
 }
 
 .section-slider h2 {
@@ -240,6 +272,7 @@ i.fa-navicon {
 
 .section-price {
   background-color: #f2f2f2;
+  padding-top: 50px;
   padding-bottom: 70px;
 }
 
@@ -297,6 +330,10 @@ th span {
   background: url("../img/no.svg") no-repeat;
 }
 
+.section-map {
+  position: relative;
+}
+
 .map {
   position: relative;
   padding-bottom: 75%;
@@ -310,6 +347,20 @@ th span {
   left: 0;
   width: 100% !important;
   height: 100% !important;
+}
+
+.white-triangle {
+  height: 0;
+  padding: 8% 0 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: url("../img/white_triangle_1.svg");
+  z-index: 2;
+  width: 100%;
+  background-position: top;
+  background-size: cover;
 }
 
 /*# sourceMappingURL=../maps/main.css.map */
