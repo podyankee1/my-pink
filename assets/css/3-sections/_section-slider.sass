@@ -1,5 +1,6 @@
 .section-slider
   position: relative
+  padding: 7%
   h2
     color: #000
     font-family: OpenSansBold
@@ -12,3 +13,20 @@
     font-weight: 400
     line-height: 30px
     text-align: center
+
+  .owl-dots
+    width: 100%
+    margin-top: 30px
+    text-align: center
+    margin-bottom: 50px
+    .owl-dot
+      +size(6px);
+      opacity: 0.3;
+      background-color: #283645;
+      display: inline-block
+      margin-right: 15px
+      border-radius: 50%
+      border: 3px solid white
+      &.active
+        background-color: white;
+        border: 3px solid #283645;

@@ -74,10 +74,11 @@ header .main-nav-ul a:hover {
 }
 
 header h1 {
-  color: #000;
-  font-weight: normal;
+  font-family: "OpenSansLight", sans-serif;
+  font-weight: 300;
   font-size: 1.5em;
-  margin-top: 0;
+  margin-top: -10px;
+  padding: 0 10% 0 10%;
   margin-bottom: 35px;
   color: #fff;
 }
@@ -195,19 +196,19 @@ i.fa {
   padding-bottom: 50px;
 }
 
-.features {
-  background: #f2f2f2;
-}
-
-.features h2 {
+.section-features .header h2 {
   color: #283645;
   font-family: OpenSansLight, sans-serif;
   font-size: 1.5em;
   font-weight: 300;
 }
 
-.features h2:nth-of-type(2) {
+.section-features .header h2:nth-of-type(2) {
   margin-bottom: 0;
+}
+
+.features {
+  background: #f2f2f2;
 }
 
 .features h3 {
@@ -252,6 +253,7 @@ i.fa {
 
 .section-slider {
   position: relative;
+  padding: 7%;
 }
 
 .section-slider h2 {
@@ -268,6 +270,30 @@ i.fa {
   font-weight: 400;
   line-height: 30px;
   text-align: center;
+}
+
+.section-slider .owl-dots {
+  width: 100%;
+  margin-top: 30px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.section-slider .owl-dots .owl-dot {
+  height: 6px;
+  width: 6px;
+  opacity: 0.3;
+  background-color: #283645;
+  display: inline-block;
+  margin-right: 15px;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  border: 3px solid white;
+}
+
+.section-slider .owl-dots .owl-dot.active {
+  background-color: white;
+  border: 3px solid #283645;
 }
 
 .section-price {

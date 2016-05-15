@@ -29,3 +29,9 @@ bower i jquery -s
 bower i jquery -D - for development
 bower uninstall jquery -S
 .bowerc расположение файлов устанавливаемых Bower
+
+
+{% include section-price.html %}
+{% include section-contact.html %}
+{% include section-map.html %}
+{% include footer.html %}
