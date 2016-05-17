@@ -2,10 +2,11 @@
   background-color: #f2f2f2
   padding-top: 50px
   padding-bottom: 70px
-table
+table.big-table
   width: 80%
   margin: 0 auto
   text-align: center
+  display: none
 td
   border: 2px solid #e5e5e5
   padding: 20px 40px
@@ -14,6 +15,7 @@ td
     font-size: 14px
     font-weight: 400
     line-height: 30px
+    text-transform: uppercase
   //padding: 50px
 th
   background-color: #283645
@@ -38,3 +40,26 @@ th
     background: url("../img/yes.svg") no-repeat
   &--no
     background: url("../img/no.svg") no-repeat
+.slider-table
+
+
+.slider-table-item
+  width: 100%
+  padding: 0 -20px
+  border: 1px solid #e5e5e5
+  +clearfix
+  &.item2
+    thead
+      position: relative
+      &:after
+        content: ""
+        position: absolute
+        width: 74px
+        height: 73px
+        top: 0
+        left: 0
+        background: url("../img/hit.png") no-repeat
+  th
+    background-color: #283645
+  i
+    float: right

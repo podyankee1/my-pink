@@ -272,14 +272,14 @@ i.fa {
   text-align: center;
 }
 
-.section-slider .owl-dots {
+.owl-dots {
   width: 100%;
   margin-top: 30px;
   text-align: center;
   margin-bottom: 50px;
 }
 
-.section-slider .owl-dots .owl-dot {
+.owl-dots .owl-dot {
   height: 6px;
   width: 6px;
   opacity: 0.3;
@@ -291,7 +291,7 @@ i.fa {
   border: 3px solid white;
 }
 
-.section-slider .owl-dots .owl-dot.active {
+.owl-dots .owl-dot.active {
   background-color: white;
   border: 3px solid #283645;
 }
@@ -302,10 +302,11 @@ i.fa {
   padding-bottom: 70px;
 }
 
-table {
+table.big-table {
   width: 80%;
   margin: 0 auto;
   text-align: center;
+  display: none;
 }
 
 td {
@@ -318,6 +319,7 @@ td.first {
   font-size: 14px;
   font-weight: 400;
   line-height: 30px;
+  text-transform: uppercase;
 }
 
 th {
@@ -354,6 +356,40 @@ th span {
 
 .table__icon--no {
   background: url("../img/no.svg") no-repeat;
+}
+
+.slider-table-item {
+  width: 100%;
+  padding: 0 -20px;
+  border: 1px solid #e5e5e5;
+}
+
+.slider-table-item::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.slider-table-item.item2 thead {
+  position: relative;
+}
+
+.slider-table-item.item2 thead:after {
+  content: "";
+  position: absolute;
+  width: 74px;
+  height: 73px;
+  top: 0;
+  left: 0;
+  background: url("../img/hit.png") no-repeat;
+}
+
+.slider-table-item th {
+  background-color: #283645;
+}
+
+.slider-table-item i {
+  float: right;
 }
 
 .section-map {

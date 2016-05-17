@@ -18,6 +18,18 @@ $(".owl-carousel").owlCarousel({
 	navText : ""
 
 });
+$(".carousel").owlCarousel({
+	loop : true,
+	stagePadding: 20,
+	responsive : {
+		0 : {
+			items : 1,
+			nav : true
+		}
+	},
+	navText : ""
+
+});
 
 
 
